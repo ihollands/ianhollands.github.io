@@ -1,0 +1,82 @@
+/* Colors:
+      background teal: #01353B
+      light blue (unselected): #14AABA
+      yellow/green (selected): #7A6E1A
+      magenta (accent): #6E0C42
+*/
+html,body {
+        padding:0;
+        margin:0;
+        height:100%;
+        min-height:100%;
+      }
+
+body {
+  background-color: #DDD;
+  font-family: 'Roboto', serif;
+}
+
+h1 {
+  font-family: 'Roboto Slab', sans-serif;
+  font-size: 35px;
+  font-weight:bold;
+  line-height:250px;
+}
+span {
+  font-size:55px;
+}
+
+h2 {
+  font-size: 35px;
+  font-weight:normal;
+  margin:-120px;
+
+}
+
+.background-box {
+  width: 50%;
+  height: 50%;
+  background-color: rgba(1,53,59,1);
+  border: 20px solid #DDD;
+  font-size: 35px;
+  font-weight:normal;
+  box-sizing:border-box;
+  text-align:center;
+  color:#FFF;
+}
+
+#box1 {
+  float:left;
+}
+
+#box1:hover {
+  background:
+    linear-gradient(rgba(122,110,26,.7),rgba(122,110,26,.7)), url(../img/ian.jpg);
+}
+
+#box2 {
+  float:right;
+}
+
+#box2:hover {
+  background:
+    linear-gradient(rgba(122,110,26,.7),rgba(122,110,26,.7)), url(../img/ian_on_beach.jpg);
+}
+
+#box3 {
+  float:left;
+}
+
+#box3:hover {
+  background:
+    linear-gradient(rgba(122,110,26,.7),rgba(122,110,26,.7)), url(../img/code.jpg);
+}
+
+#box4 {
+  float:right;
+}
+
+#box4:hover {
+  background:
+    linear-gradient(rgba(122,110,26,.7),rgba(122,110,26,.7)), url(../img/GA_logo.jpg);
+}
